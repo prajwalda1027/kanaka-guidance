@@ -13,7 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'Noto Sans Tamil', 'sans-serif'],
+      },
       colors: {
+        whatsapp: '#25D366',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
